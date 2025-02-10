@@ -1,0 +1,130 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.container{
+    max-width: 80vw;
+}
+
+
+.navbar{
+    display: flex;
+    height: 67px;
+}
+
+.navbar li{
+    list-style: none;
+    margin: 0 12px;
+}
+
+.btn{
+    padding: 4px 10px;
+    border: 2px solid black;
+    border-radius: 6px;
+    color: white;
+    background-color: orange;
+    cursor: pointer;
+}
+
+.topleft{
+    width: 50%;
+    height: 80vh;
+}
+
+.topright{
+    width: 50%;
+    height: 80vh;
+}
+
+.overflow-hidden{
+    overflow-x: hidden;
+}
+.section1{
+    max-height: 100vh;
+}
+
+.logo{
+    font-size: 1.3rem;
+}
+
+.dumbell{
+    width: 40vh;
+    
+}
+
+.topright .gymimg{
+    height: 78vh ;
+}
+
+.section1 h1{
+    font-size: 2rem;
+}
+
+.section2 h1{
+    font-size: 2rem;
+}
+
+.section3 h1{
+    font-size: 2rem;
+}
+
+.section2 {
+    padding-left: 63px;
+    padding-right: 63px;
+}
+
+.box{
+    margin: 12px 22px;
+    min-width: 22vw;
+    border: 2px solid rgb(0, 0, 0);
+    border-radius: 10px;
+}
+
+.box h2{
+    padding: 10px;
+}
+
+.box ul{
+    list-style-type: none;
+}
+
+.box ul li{
+    margin: 12px 2px;
+}
+
+.plantable{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 40px;
+}
+
+.section3 {
+    padding-left: 63px;
+    padding-right: 63px;
+}
+
+.section3 table{
+    width: 100%;
+    margin-bottom: 50px 0;
+    border-collapse: collapse;
+}
+
+.section3 table th{
+    border-bottom: 2px solid black;
+    border-right: 2px solid black;
+    padding: 12px;
+    width: 20vw;
+}
+
+.section3 table td{
+    border-bottom: 1px solid black;
+    border-right: 1px solid black;
+    padding: 12px;
+}
+
+.footer{
+    padding: 23px;
+    text-align: center;
+}
